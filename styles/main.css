@@ -1,0 +1,80 @@
+  /* Global styles */
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #1a1a1a;
+    color: #eaeaea;
+    margin: 0;
+    padding: 2em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #87d3b5;
+    text-align: center;
+}
+
+a {
+    color: #87d3b5;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* SVG styles */
+svg {
+    display: block;
+    margin: 20px auto;
+}
+
+/* SVG shapes */
+rect,
+ellipse,
+line,
+polygon {
+    transition: fill 0.3s ease, stroke 0.3s ease;
+}
+
+rect:hover,
+ellipse:hover,
+line:hover,
+polygon:hover {
+    fill: #87d3b5;
+    stroke: #eaeaea;
+}
+
+/* Video and Audio styles */
+video,
+audio {
+    display: block;
+    width: 100%;
+    max-width: 800px;
+    margin: 20px auto;
+    border: 2px solid #87d3b5;
+    border-radius: 5px;
+}
+
+/* iFrame styles */
+iframe {
+    display: block;
+    width: 100%;
+    max-width: 800px;
+    height: 400px;
+    border: 2px solid #87d3b5;
+    border-radius: 5px;
+    margin: 20px auto;
+}
+
+/* Canvas styles */
+canvas {
+    display: block;
+    background-color: #333;
+    border: 2px solid #87d3b5;
+    border-radius: 5px;
+    margin: 20px auto;
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample Multimedia Page</title>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+
+<body>
+
+    <h1>HTML Multimedia Demonstration</h1>
+
+    <!-- Video Element -->
+    <section>
+        <h2>Video Element</h2>
+
+    </section>
+
+    <!-- Audio Element -->
+    <section>
+        <h2>Audio Element</h2>
+
+    </section>
+
+    <!-- Inline Frame Element -->
+    <section>
+        <h2>Inline Frame Element</h2>
+    </section>
+
+    <!-- Canvas Element -->
+    <section>
+        <h2>Canvas Element</h2>
+      <!-- add the canvas element below. Make sure it has an id of "myCanvas" -->
+
+      <!-- do not touch the script tag -->
+        <script>
+            const canvas = document.getElementById("myCanvas");
+            const ctx = canvas.getContext("2d");
+            ctx.fillStyle = "#0066A0";
+            ctx.fillRect(0, 0, 150, 75);
+        </script>
+    </section>
+
+    <!-- SVG Element -->
+    <!-- Use the existing SVG elements to create new, unique SVG elements -->
+    <section>
+        <h2>SVG Element</h2>
+        <svg width="100" height="100">
+            <circle cx="50" cy="50" r="40" stroke="black" stroke-width="3" fill="crimson" />
+        </svg>
+
+        <svg width="200" height="100">
+            <rect width="150" height="60" x="25" y="20" stroke="black" stroke-width="3" fill="teal" />
+        </svg>
+
+        <svg width="200" height="100">
+            <ellipse cx="100" cy="50" rx="90" ry="40" stroke="black" stroke-width="3" fill="lightgreen" />
+        </svg>
+
+        <svg width="200" height="100">
+            <line x1="10" y1="10" x2="190" y2="90" stroke="gray" stroke-width="3" />
+        </svg>
+
+        <svg width="200" height="100">
+            <polygon points="100,10 10,90 190,90" stroke="black" stroke-width="3" fill="gold" />
+        </svg>
+    </section>
+
+</body>
+
+</html>
